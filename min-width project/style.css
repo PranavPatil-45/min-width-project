@@ -1,0 +1,92 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.navbar
+{
+    width: 100%;
+    height: 60px;
+    background-color:whitesmoke;
+}
+.navbarcontainer
+{
+    width: 80%;
+    height: 60px;
+    margin: auto;
+ 
+    display: flex;
+    
+
+}
+.list
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list ul
+{
+    display: flex;
+    justify-content: center;
+}
+
+.list ul li
+{
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 0px 20px;
+}
+.list a
+{
+    text-decoration: none;
+    color: black;
+}
+.banner
+{
+    width: 100%;
+   
+    height: 400px;
+}
+.banner-container
+{
+    width: 80%;
+    height: 400px;
+    margin: auto;
+   background-image: url('images/old-man-5900410_640.jpg');
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   border-radius: 10px;
+}
+.main
+{
+    width: 100%;
+    height: auto;
+   
+}
+.main-content
+{
+    height: 500px;
+    width: 80%;
+    margin:auto;
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+.box
+{
+    height: 350px;
+    width: 31%;
+   
+    border-radius: 10px;
+}
+.box img
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
